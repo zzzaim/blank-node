@@ -9,8 +9,8 @@ module.exports = {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
   },
+  ignorePatterns: ["!*rc.js"],
   parserOptions: {
     ecmaVersion: 2018
-  },
-  ignorePatterns: ["!*rc.js"]
+  }
 };
